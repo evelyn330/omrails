@@ -4,10 +4,15 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0.rc2'
 gem 'turbolinks'
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
+gem 'protected_attributes'
+
 # Use sqlite3 as the database for Active Record
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
