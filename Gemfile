@@ -7,6 +7,7 @@ gem 'jquery-rails'
 gem 'devise', '3.0.0.rc'
 gem 'simple_form'
 gem 'protected_attributes'
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 
 # Use sqlite3 as the database for Active Record
 
