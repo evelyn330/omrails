@@ -3,8 +3,8 @@ class PinsController < ApplicationController
   before_filter :authenticate_user!, except: [:index]
 
   # GET /pins
-  def index
-    @pins = Pin.all
+ def index
+    @pins = Pin.order("created_at desc")
   end
 
   # GET /pins/1
