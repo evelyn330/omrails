@@ -9,6 +9,8 @@ gem 'simple_form'
 gem 'protected_attributes'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
 
 # Use sqlite3 as the database for Active Record
 
